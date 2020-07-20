@@ -48,6 +48,7 @@ public class MainViewControler implements Initializable {
 		
 	}
 	
+	
 	private synchronized void loadView (String absoluteName) {
 		try {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource(absoluteName));
