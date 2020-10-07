@@ -57,9 +57,7 @@ public class DepartmentFormController implements Initializable {
 	public void subscribeDataChangeListener(DataChangeListener listener) {
 		dataChangeListeners.add(listener);
 	}
-	
-	
-	
+		
 	@FXML
 	public void onBtSaveAction(ActionEvent event) {
 		if (entity == null) {
